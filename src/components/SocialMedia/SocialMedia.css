@@ -1,0 +1,28 @@
+.socialmedia_container{
+    background-color: rgb(238, 238, 238);
+    margin: 0px;
+    padding: 20px 20px 100px 20px;
+    
+
+}
+.socialmedia_container h1{
+
+    text-align: center;
+
+}
+.socialmedia_container img{
+    height: 70px;
+}
+.socialmedia_container_icons{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: space-around;
+
+}
+@media screen and (max-width:510px) {
+    .socialmedia_container_icons{
+
+    grid-template-columns: auto auto auto;
+    }
+}
