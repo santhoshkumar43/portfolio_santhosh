@@ -6,16 +6,22 @@ import TechStack from './components/TechStack/TechStack';
 import Experence from './components/Experence/Experence.js';
 
 import SocialMedia from './components/SocialMedia/SocialMedia';
-import Projects from './components/Projects/Projects.js'
+import Projects from './components/Projects/Projects.js';
+import {BrowserRouter} from "react-router-dom";
+
 
 
 
 function App() {
   return (
+    <BrowserRouter>
     <div className="App">
+
       <Navigation/>
       <Homepage/>
+    
       <TechStack/>
+      
       <SocialMedia/>
       <Experence/>
       <Projects/>
@@ -24,6 +30,7 @@ function App() {
 
     
     </div>
+    </BrowserRouter>
   );
 }
 

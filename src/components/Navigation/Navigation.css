@@ -1,31 +1,30 @@
-
 .nav-bar {
     background-color: rgba(0, 0, 0, 0.305);
     display: flex;
     flex-wrap: wrap;
-    
-    
-    padding:12px;
+
+
+    padding: 12px;
     position: fixed;
     width: 100%;
-    
+
 
 
 }
 
 .nav-bar ul {
-    
-    
+
+
     position: absolute;
     right: 30px;
     display: flex;
     padding: 0px;
-    margin: 0px ;
+    margin: 0px;
 
 }
 
 .nav-bar h1 {
-    
+
     font-size: 40px;
     color: transparent;
     -webkit-text-stroke: 1px white;
@@ -43,27 +42,41 @@
 }
 
 .nav-bar ul li {
-    
+
     list-style: none;
     margin: 10px 10px 0px 0px;
 
 }
 
 .nav-bar ul li a {
+    position: relative;
     color: white;
     text-decoration: none;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    
-    
-}
-.nav-bar a:hover{
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     
+
+
 }
 
 
+
+.nav-bar ul li a::after {
+    display: flex;
+    content: '';
+    width: 0%;
+    height: 3px;
+    bottom: -7px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    background: rgb(255, 255, 255);
+    transition: width 0.3s;
+
+}
+.nav-bar ul li a:hover::after {
+    width: 50%;
+}
 
 button:hover {
     background-color: #333;
@@ -127,6 +140,7 @@ button:hover {
     .drp {
         display: block;
     }
+
     .nav-bar ul li a {
         font-size: 10px;
 
