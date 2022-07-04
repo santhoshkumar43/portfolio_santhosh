@@ -135,3 +135,10 @@ p:last-of-type {
 
 
 }
+@media screen and (max-width:350px) {
+    .container h1 {
+        font-size: 35px;
+    }
+
+
+}

@@ -151,3 +151,10 @@ button:hover {
     }
 
 }
+@media screen and (max-width:350px) {
+    .nav-bar h1 {
+        font-size: 25px;
+    }
+
+
+}
