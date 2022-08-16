@@ -1,0 +1,21 @@
+.Hire-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Hire h1{
+    text-align: center;
+}
+.Hire-container{
+    display: flex;
+    flex-direction: column;
+    
+    width: 300px;
+
+}
+.Hire-container {
+    text-align: center;
+}
+.Hire-container img{
+    height: 300px;
+}

@@ -8,6 +8,7 @@ import Experence from './components/Experence/Experence.js';
 import SocialMedia from './components/SocialMedia/SocialMedia';
 import Projects from './components/Projects/Projects.js';
 import {BrowserRouter} from "react-router-dom";
+import Hire from './components/Hire/Hire';
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <Homepage/>
     
       <TechStack/>
+      <Hire/>
       
       <SocialMedia/>
       <Experence/>
