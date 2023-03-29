@@ -11,7 +11,7 @@ export default function Hire() {
             <div className="Hire-box">
                 <div className="Hire-container">
                     <div>
-                        <img src={interpersonal} />
+                        <img src={interpersonal} alt="img" />
 
                     </div>
                     <div>
@@ -24,7 +24,7 @@ export default function Hire() {
 
                 <div class="Hire-container">
                     <div>
-                        <img src={management}/>
+                        <img src={management} alt="img"/>
 
                     </div>
                     <div>
@@ -37,7 +37,7 @@ export default function Hire() {
 
                 <div class="Hire-container">
                     <div>
-                        <img src={selfmotivated}/>
+                        <img src={selfmotivated} alt="img"/>
 
                     </div>
                     <div>
@@ -50,7 +50,7 @@ export default function Hire() {
 
                 <div class="Hire-container">
                     <div>
-                        <img src={problemsolve}/>
+                        <img src={problemsolve} alt="img"/>
 
                     </div>
                     <div>
