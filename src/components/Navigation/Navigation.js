@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navigation.css";
-import { Link } from "react-router-dom";
+import { HashLink as  Link } from "react-router-hash-link";
 
 
 
@@ -23,11 +23,11 @@ export default function Navigation() {
             <div className="nav-bar">
                 <h1>PORT<span>FOLIO</span></h1>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li>  <a href="#">TechStack</a></li>
-                    <li><a href="#">Experence</a></li>
-                    <li><a href="#">Skills</a></li>
-                    <li><a href="#">Social media</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li>  <Link to="#tech" smooth>TechStack</Link></li>
+                    <li><Link to="#Experence" smooth >Experence</Link></li>
+                    <li> <Link to="#Hire" smooth>Hire</Link> </li>
+                    <li> <Link to="#Projects" smooth>Projects</Link> </li>
                     <div className="drp">
                         <button className="dropbtn" onClick={msg} >Menu
 

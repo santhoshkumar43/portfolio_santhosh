@@ -9,6 +9,17 @@ export default function Projects() {
     const projectData = [
         {
             image:pro1,
+            title: "Weather Application",
+            sentences: [
+                "santhosh kumar",
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nibh lorem, consequat vel pellentesque quis, varius vitae odio.",
+                "Vivamus pretium libero tortor, eget iaculis ex fermentum nec. Nulla leo ligula, aliquet ac suscipit ut, mollis vitae tellus. Mauris iaculis neque",
+                "Aliquam eget arcu dictum, vulputate elit ac, mollis eros. Maecenas eget iaculis velit. Duis nunc urna, semper sed nunc sed, placerat pellentesque leo. ",
+                "Aliquam eget arcu dictum, vulputate elit ac, mollis eros. Maecenas eget iaculis velit. Duis nunc urna, semper sed nunc sed, placerat pellentesque leo. ",
+            ],
+            link: "https://santhosh-weather-app.netlify.app/",
+        },{
+            image:pro1,
             title: "Student Enrollment Form",
             sentences: [
                 "santhosh kumar",
@@ -35,7 +46,7 @@ export default function Projects() {
 
     return (
 
-        <div className="Projects_back">
+        <div id="Projects" className="Projects_back">
             <h1 className="projects_title">Projects</h1>
             <div className="projects_box_container">
                 {projectData.map((value, index) => (

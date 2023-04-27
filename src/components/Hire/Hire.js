@@ -6,7 +6,7 @@ import selfmotivated from "../../images/selfmotivated.jpg";
 import problemsolve from "../../images/problemsolve.jpg"
 export default function Hire() {
     return (
-        <div className="Hire">
+        <div id="Hire" className="Hire">
             <h1>Why Hire Me<span>?</span></h1>
             <div className="Hire-box">
                 <div className="Hire-container">

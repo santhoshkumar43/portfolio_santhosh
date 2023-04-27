@@ -64,7 +64,7 @@ export default function TechStack() {
 
     ]
     return (
-        <div className="techstack_container">
+        <div id="tech" className="techstack_container">
             <h1 className="techstack_title">Tech Stack</h1>
             <div className="techstack_icon_container">
                 {

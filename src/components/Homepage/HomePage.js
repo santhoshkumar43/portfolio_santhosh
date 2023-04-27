@@ -49,13 +49,13 @@ export default function Homepage() {
                 <h2>I'M</h2>
                 <h1>SANTHOSH KUMAR</h1>
                 <h3>
-                    <p>I work as a</p>&nbsp;<p id="text"></p ><p >_</p>
+                    <p>I am a</p>&nbsp;<p id="text"></p ><p >_</p>
 
                 </h3>
                 <div class="cont-btn">
                     <a href="mailto:pittasanthoshkumar4321@gmail.com"><input type="button" className="c-btn" value="Contact me" /></a>
-                    <input type="button" className="d-btn" value="Download CV" />
-                    <span>you can find more about my portfolio <br />and personal life experence here.</span>
+                    <a target="_blank" href="https://drive.google.com/file/d/1tIgvj0VYA_zf1X8Gs9YrY3HQTHF7nO_R/view?usp=sharing" download><input type="button" className="d-btn" value="Download CV" /></a>
+                    
                 </div>
 
             </div>
