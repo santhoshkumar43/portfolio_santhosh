@@ -34,14 +34,14 @@ export default function Experence() {
                 <ExperienceCard 
                     companyName="Leena AI"
                     designation="ChatBot QA"
-                    statements={statements}
-                    iconImages={iconImages}
+                    statements={statement2}
+                    iconImages={iconImage2}
                 />
                 <ExperienceCard 
                     companyName="Oyebusy Technolies Pvt Ltd"
                     designation="Front-end Web Developer Intern"
-                    statements={statement2}
-                    iconImages={iconImage2}
+                    statements={statements}
+                    iconImages={iconImages}
                 />
                 
             </div>
