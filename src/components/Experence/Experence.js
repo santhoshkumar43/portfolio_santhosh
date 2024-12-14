@@ -15,6 +15,13 @@ export default function Experence() {
         "4. My primary tools for creating web applications and SEO were vue js and nuxt js.",
         "5. Working with them made me feel wonderful, and I learned many new things.",
     ];
+    const statement2 = [
+        "1. For six months, I was an intern at a busy technology company.",
+        "2. Being a front end developer was an excellent experience for me.",
+       " 3. My first lesson involved using gitlab to collaborate with a team. a guide to merging requests and pushing code to branches.",
+        "4. My primary tools for creating web applications and SEO were vue js and nuxt js.",
+        "5. Working with them made me feel wonderful, and I learned many new things.",
+    ];
 
     const iconImages = [js, html, brands, css];
 
@@ -23,9 +30,15 @@ export default function Experence() {
             <p className="experience_title">Experience</p>
             <div className="experience_cards_container">
                 <ExperienceCard 
+                    companyName="Leena AI"
+                    designation="ChatBot QA"
+                    statements={statements}
+                    iconImages={iconImages}
+                />
+                <ExperienceCard 
                     companyName="Oyebusy Technolies Pvt Ltd"
                     designation="Front-end Web Developer Intern"
-                    statements={statements}
+                    statements={statement2}
                     iconImages={iconImages}
                 />
                 
