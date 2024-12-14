@@ -4,7 +4,7 @@ import "./HomePage.css";
 
 export default function Homepage() {
 
-    const words = ["Full Stack WEB DEVELOPER",];
+    const words = ["ChatBot QA",];
     let i = 0;
     let counter;
     window.onload = function () { typeNow() }
