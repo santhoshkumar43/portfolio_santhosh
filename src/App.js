@@ -20,14 +20,9 @@ function App() {
       <Router>
         <Navigation />
         <Homepage />
-
-
-        <TechStack />
-
-        <Hire />
-
-
         <Experence />
+        <Hire />
+        <TechStack />
         <Projects />
         <SocialMedia />
         {/* <Routes>
