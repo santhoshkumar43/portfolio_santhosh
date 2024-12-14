@@ -25,6 +25,7 @@ export default function Experence() {
     ];
 
     const iconImages = [js, html, brands, css];
+    const iconImage2 =[python, js]
 
     return (
         <div id="Experence" className="experience_container">
@@ -40,7 +41,7 @@ export default function Experence() {
                     companyName="Oyebusy Technolies Pvt Ltd"
                     designation="Front-end Web Developer Intern"
                     statements={statement2}
-                    iconImages=[python, js]
+                    iconImages={iconImage2}
                 />
                 
             </div>
