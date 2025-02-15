@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+}
+.main {
+  height: 100vh;
+  margin: 0;
+}
+.containerMain {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 80vh;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+.topBannerMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 10%;
+  background-color: rgb(255, 255, 255);
+  border-bottom: solid 1px rgb(228, 228, 228);
+}
+.LogoMain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.LogoMain img {
+  height: 30px;
+  margin-right: 20px;
+}
+.rightTopbannermain button{
+  background-color: rgba(255, 255, 255, 0);
+  border: 0px;
+  cursor: pointer;
+}
+.rightTopbannermain img {
+  height: 20px;
+  margin: 0 0px;
+}
+.bottomSpace{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bottomBar {
+  width: 95%;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 0.5px solid rgb(216, 216, 216);
+  border-radius: 8px;
+
+}
+.bottomBar:hover {
+  border: 0.2px solid rgb(9 106 217);
+}
+.chats{
+  font-size: 14px;
+}
+.chatInput {
+  width: 80%;
+  background-color: none;
+  border: 0px;
+  height: 35px;
+  font-size: medium;
+  margin-left: 5px;
+}
+.chatSend {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0px solid rgb(211, 211, 211);
+  border-radius: 5px;
+  
+  width: fit-content;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+.chatSend:active {
+  transform: scale(0.95);
+}
+.chatSend img {
+  padding: 2px;
+  height: 25px;
+  
+}
+input:focus {
+  outline: none;
+  background-color: white;
+}
+.chatArea {
+  padding: 10px;
+  height: 75%;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.deftext {
+  text-align: center;
+}
+.userChat {
+  width: fit-content;
+}
+.outeruserChat {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin: 5px 0px;
+}
+.userChat {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #eeeeee;
+}
+.outerbotChat img {
+  height: 30px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+.outerbotChat {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+.botChat {
+  width: fit-content;
+  max-width: 60%;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px #eeeeee;
+}
+
+@media screen and (max-width:400px) {
+  .containerMain {
+
+    width: 350px;
+    
+    height: 80vh;
+
+  } 
+  .LogoMain img {
+    height: 25px;
+  }
+  .rightTopbannermain img {
+    height: 15px;
+    margin: 0 10px;
+  }
+  .chats{
+    font-size: 12px;
+  }
+
+
+}

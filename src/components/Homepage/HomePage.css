@@ -3,7 +3,7 @@
     margin:0px ;
     padding: 20px;
    
-    height: 700px;
+    height: 100vh;
     
     background-size: cover;
 }
@@ -94,6 +94,7 @@ p:last-of-type {
 }
 
 .container h3 {
+    position: relative;
     display: flex;
     flex-direction: row;
     font-family: Arial, Helvetica, sans-serif;
@@ -101,6 +102,80 @@ p:last-of-type {
     color: white;
     margin: 10px;
 }
+
+.buddyPlace{
+ position: absolute;
+ top: 100px;
+ right: 10px;
+
+}
+
+
+.buddybtn{
+    position: absolute;
+    
+    
+ top: 90vh;
+ right: 10px;
+}  
+  /* home.css */
+  .chatOpenButton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;}
+
+  .chatOpenButton img{
+    height: 40px;
+  }
+  .chatOpenButton h5{
+    margin: 0px;
+  }
+  .futuristicButton {
+    background: linear-gradient(135deg, #ff00ff, #00ffff);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgba(255, 0, 255, 0.7);
+    transition: all 0.3s ease-in-out;
+
+
+    position: relative;
+    overflow: hidden;
+    animation: vibrate 0.2s infinite ease-in-out alternate;
+  }
+  
+  .futuristicButton::before {
+    content: "";
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    width: 300%;
+    height: 300%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(45deg);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .futuristicButton:hover {
+    background: linear-gradient(135deg, #00ffff, #ff00ff);
+    box-shadow: 0px 0px 25px rgba(0, 255, 255, 0.7);
+  }
+  
+  .futuristicButton:hover::before {
+    top: 0%;
+    left: 0%;
+  }
+  
+  @keyframes vibrate {
+    0% { transform: translateX(-2px) rotate(-1deg); }
+    100% { transform: translateX(2px) rotate(1deg); }
+  }
+  
 
 @media screen and (max-width:750px) {
     .container h1 {
@@ -132,6 +207,13 @@ p:last-of-type {
         align-items: center;
         text-align: center;
     }
+    .buddybtn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+     
+    }  
 
 
 }

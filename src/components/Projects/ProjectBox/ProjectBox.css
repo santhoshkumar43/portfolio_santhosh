@@ -6,6 +6,7 @@
     border-radius: 5px;
 }
 .project_box_image_container > img{
+    height: 300px;
     width: 550px;
 }
 .project_box_description_container{
